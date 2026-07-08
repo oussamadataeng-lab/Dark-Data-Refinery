@@ -1,0 +1,18 @@
+# Environnements
+minio.exe
+venv/
+myvenv/
+__pycache__/
+*.pyc
+
+# Données (Le JSON de 1.8 Go est ici ! NE PAS L'ENVOYER !)
+data_lake/
+database/
+logs/
+*.csv
+*.json
+*.parquet
+*.db
+
+# Secrets
+.env
